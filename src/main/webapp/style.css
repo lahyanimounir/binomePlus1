@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+
+.background{
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    height: 400px;
+
+
+}
+.border-title{
+	border-bottom: 1.5px solid #8ac2fd;
+    white-space: nowrap;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+}
+.title{
+	font-weight: bold;
+}
+
+.btn-primary{
+	color: #fff !important;
+    background-color: #2b4779 !important;
+    border-color: #2b4779 !important;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: #fff;
+}

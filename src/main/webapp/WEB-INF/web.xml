@@ -12,4 +12,26 @@
 		<servlet-name>acceuilServlet</servlet-name>
 		<url-pattern>/acceuilServlet</url-pattern>
 	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>reservationServlet</servlet-name>
+		<servlet-class>com.servlets.ReservationServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>reservationServlet</servlet-name>
+		<url-pattern>/reservationServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>registerServlet</servlet-name>
+		<servlet-class>com.servlets.RegisterServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>registerServlet</servlet-name>
+		<url-pattern>/registerServlet</url-pattern>
+	</servlet-mapping>
+	
+	
 </web-app>
